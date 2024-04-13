@@ -35,9 +35,16 @@ labelImg等を使ったアノテーション済みであることが前提
 （labelImg等アノテーションツールは画像とそのラベルが同一フォルダで出力されるため）
 
 
-- anotation
- - lib
-  - __pycache__
+├── controllers
+│   ├── userController.ts
+│   └── chatController.ts
+├── services
+│   ├── userService.ts
+│   └── chatService.ts
+├── models
+│   ├── user.ts
+│   └── chat.ts
+└── configs
 
 .
 └── data_augmentation/
