@@ -34,18 +34,7 @@ labelImg等を使ったアノテーション済みであることが前提
 注意）anotationフォルダはアノテーション直後を想定してフォルダ内部は画像とラベルが混同している状態で実行
 （labelImg等アノテーションツールは画像とそのラベルが同一フォルダで出力されるため）
 
-
-├── controllers
-│   ├── userController.ts
-│   └── chatController.ts
-├── services
-│   ├── userService.ts
-│   └── chatService.ts
-├── models
-│   ├── user.ts
-│   └── chat.ts
-└── configs
-
+'''
 .
 └── data_augmentation/
     ├── anotation/    ⇚フォルダ名は任意
@@ -62,7 +51,7 @@ labelImg等を使ったアノテーション済みであることが前提
     │   └── rotate.py
     ├── main.py
     └── README.md
-
+'''
 
 
 ★実行方法
