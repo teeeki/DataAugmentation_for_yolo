@@ -34,6 +34,11 @@ labelImg等を使ったアノテーション済みであることが前提
 注意）anotationフォルダはアノテーション直後を想定してフォルダ内部は画像とラベルが混同している状態で実行
 （labelImg等アノテーションツールは画像とそのラベルが同一フォルダで出力されるため）
 
+
+├─anotation
+└─lib
+    └─__pycache__
+
 .
 └── data_augmentation/
     ├── anotation/    ⇚フォルダ名は任意
