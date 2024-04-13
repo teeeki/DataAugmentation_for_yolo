@@ -35,9 +35,9 @@ labelImg等を使ったアノテーション済みであることが前提
 （labelImg等アノテーションツールは画像とそのラベルが同一フォルダで出力されるため）
 
 
-├─anotation
-└─lib
-    └─__pycache__
+- anotation
+ - lib
+  - __pycache__
 
 .
 └── data_augmentation/
